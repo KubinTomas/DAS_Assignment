@@ -1,0 +1,12 @@
+c:\users\kubin\source\repos\DAS_Assignment\DAS_Assignment\bin\Debug\DAS_Assignment.exe.config
+c:\users\kubin\source\repos\DAS_Assignment\DAS_Assignment\bin\Debug\DAS_Assignment.exe
+c:\users\kubin\source\repos\DAS_Assignment\DAS_Assignment\bin\Debug\DAS_Assignment.pdb
+c:\users\kubin\source\repos\DAS_Assignment\DAS_Assignment\bin\Debug\Queue.dll
+c:\users\kubin\source\repos\DAS_Assignment\DAS_Assignment\bin\Debug\Stack.dll
+c:\users\kubin\source\repos\DAS_Assignment\DAS_Assignment\bin\Debug\Queue.pdb
+c:\users\kubin\source\repos\DAS_Assignment\DAS_Assignment\bin\Debug\Stack.pdb
+c:\users\kubin\source\repos\DAS_Assignment\DAS_Assignment\obj\Debug\DAS_Assignment.csprojAssemblyReference.cache
+c:\users\kubin\source\repos\DAS_Assignment\DAS_Assignment\obj\Debug\DAS_Assignment.csproj.CoreCompileInputs.cache
+c:\users\kubin\source\repos\DAS_Assignment\DAS_Assignment\obj\Debug\DAS_Assignment.csproj.CopyComplete
+c:\users\kubin\source\repos\DAS_Assignment\DAS_Assignment\obj\Debug\DAS_Assignment.exe
+c:\users\kubin\source\repos\DAS_Assignment\DAS_Assignment\obj\Debug\DAS_Assignment.pdb

@@ -1,0 +1,6 @@
+c:\users\kubin\source\repos\DAS_Assignment\Queue\bin\Debug\Queue.dll
+c:\users\kubin\source\repos\DAS_Assignment\Queue\bin\Debug\Queue.pdb
+c:\users\kubin\source\repos\DAS_Assignment\Queue\obj\Debug\Queue.csprojAssemblyReference.cache
+c:\users\kubin\source\repos\DAS_Assignment\Queue\obj\Debug\Queue.csproj.CoreCompileInputs.cache
+c:\users\kubin\source\repos\DAS_Assignment\Queue\obj\Debug\Queue.dll
+c:\users\kubin\source\repos\DAS_Assignment\Queue\obj\Debug\Queue.pdb

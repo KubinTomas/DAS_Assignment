@@ -1,0 +1,6 @@
+c:\users\kubin\source\repos\DAS_Assignment\Stack\bin\Debug\Stack.dll
+c:\users\kubin\source\repos\DAS_Assignment\Stack\bin\Debug\Stack.pdb
+c:\users\kubin\source\repos\DAS_Assignment\Stack\obj\Debug\Stack.csprojAssemblyReference.cache
+c:\users\kubin\source\repos\DAS_Assignment\Stack\obj\Debug\Stack.csproj.CoreCompileInputs.cache
+c:\users\kubin\source\repos\DAS_Assignment\Stack\obj\Debug\Stack.dll
+c:\users\kubin\source\repos\DAS_Assignment\Stack\obj\Debug\Stack.pdb
