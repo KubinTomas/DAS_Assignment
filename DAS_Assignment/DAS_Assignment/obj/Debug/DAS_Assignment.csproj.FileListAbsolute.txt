@@ -10,3 +10,17 @@ c:\users\kubin\source\repos\DAS_Assignment\DAS_Assignment\obj\Debug\DAS_Assignme
 c:\users\kubin\source\repos\DAS_Assignment\DAS_Assignment\obj\Debug\DAS_Assignment.csproj.CopyComplete
 c:\users\kubin\source\repos\DAS_Assignment\DAS_Assignment\obj\Debug\DAS_Assignment.exe
 c:\users\kubin\source\repos\DAS_Assignment\DAS_Assignment\obj\Debug\DAS_Assignment.pdb
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\bin\Debug\DAS_Assignment.exe.config
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\bin\Debug\DAS_Assignment.exe
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\bin\Debug\DAS_Assignment.pdb
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\bin\Debug\Queue.dll
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\bin\Debug\Stack.dll
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\bin\Debug\Queue.pdb
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\bin\Debug\Stack.pdb
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\obj\Debug\DAS_Assignment.csprojAssemblyReference.cache
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\obj\Debug\DAS_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\obj\Debug\DAS_Assignment.csproj.CopyComplete
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\obj\Debug\DAS_Assignment.exe
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\obj\Debug\DAS_Assignment.pdb
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\bin\Debug\MockDataGenerator.dll
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\bin\Debug\MockDataGenerator.pdb

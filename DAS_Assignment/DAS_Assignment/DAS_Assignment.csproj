@@ -49,6 +49,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MockDataGenerator\MockDataGenerator.csproj">
+      <Project>{a62ac119-eb0d-4e39-bc1c-9d57b1783eb2}</Project>
+      <Name>MockDataGenerator</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Queue\Queue.csproj">
       <Project>{84fbac10-b207-4a82-b7b3-ac3fac54cc04}</Project>
       <Name>Queue</Name>

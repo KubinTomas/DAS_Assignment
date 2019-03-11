@@ -4,3 +4,9 @@ c:\users\kubin\source\repos\DAS_Assignment\Stack\obj\Debug\Stack.csprojAssemblyR
 c:\users\kubin\source\repos\DAS_Assignment\Stack\obj\Debug\Stack.csproj.CoreCompileInputs.cache
 c:\users\kubin\source\repos\DAS_Assignment\Stack\obj\Debug\Stack.dll
 c:\users\kubin\source\repos\DAS_Assignment\Stack\obj\Debug\Stack.pdb
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\Stack\bin\Debug\Stack.dll
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\Stack\bin\Debug\Stack.pdb
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\Stack\obj\Debug\Stack.csprojAssemblyReference.cache
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\Stack\obj\Debug\Stack.csproj.CoreCompileInputs.cache
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\Stack\obj\Debug\Stack.dll
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\Stack\obj\Debug\Stack.pdb
