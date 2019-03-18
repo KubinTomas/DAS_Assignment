@@ -35,7 +35,7 @@ namespace MockDataGenerator
 
             return data;
         }
-        private void WriteDataInFile(List<int> data, string path = "testData.txt")
+        private void WriteDataInFile(List<int> data, string path = Settings.Values.mockDataFilePath)
         {
             using (StreamWriter file = new StreamWriter(path))
             {

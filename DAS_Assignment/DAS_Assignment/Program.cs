@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 using StackProject;
 using QueueProject;
 using MockDataGenerator;
+using DataManipulator;
+using BubbleSortPr;
+using InsertSortPr;
+using DataReader;
 
 namespace DAS_Assignment
 {
@@ -16,8 +20,25 @@ namespace DAS_Assignment
     {
         static void Main(string[] args)
         {
-            Queue();
-            //GenerateMockData();
+            GenerateMockData();
+
+            var reader = new Reader();
+            var writer = new Writer();
+
+            var sort = new InsertionSort();
+
+            Console.WriteLine("Data se zpracovavaji");
+
+            var data = reader.Read();
+
+            data = sort.Sort(data);
+
+            Console.WriteLine("Data se sortuji");
+
+            writer.WriteDataInFile(data, "output.txt");
+
+            Console.WriteLine("Operace dokoncena");
+
         }
         static void GenerateMockData()
         {
@@ -27,7 +48,7 @@ namespace DAS_Assignment
             {
                 ValueFrom = 0,
                 ValueTo = 10,
-                Count = 500
+                Count = 50000
             };
 
             mockGenerator.WriteRandomNumbersInFile(mockSpecification);

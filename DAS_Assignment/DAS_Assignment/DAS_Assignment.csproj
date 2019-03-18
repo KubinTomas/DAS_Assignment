@@ -49,6 +49,18 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BubbleSort\BubbleSort.csproj">
+      <Project>{845dbe0a-9ecc-4a40-b17c-f8ff23e13547}</Project>
+      <Name>BubbleSort</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataReader\DataManipulator.csproj">
+      <Project>{8a32781d-504f-4706-a07a-16b44de472ea}</Project>
+      <Name>DataManipulator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InsertSort\InsertSort.csproj">
+      <Project>{c1c875c1-3627-4a06-8ff4-e43d8edd40cc}</Project>
+      <Name>InsertSort</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MockDataGenerator\MockDataGenerator.csproj">
       <Project>{a62ac119-eb0d-4e39-bc1c-9d57b1783eb2}</Project>
       <Name>MockDataGenerator</Name>
@@ -56,6 +68,10 @@
     <ProjectReference Include="..\Queue\Queue.csproj">
       <Project>{84fbac10-b207-4a82-b7b3-ac3fac54cc04}</Project>
       <Name>Queue</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Settings\Settings.csproj">
+      <Project>{e43d6a6b-0ab3-4bf6-b004-50c33f70df16}</Project>
+      <Name>Settings</Name>
     </ProjectReference>
     <ProjectReference Include="..\Stack\Stack.csproj">
       <Project>{e6397230-c262-4b9e-9a36-7532cb4df1b1}</Project>
