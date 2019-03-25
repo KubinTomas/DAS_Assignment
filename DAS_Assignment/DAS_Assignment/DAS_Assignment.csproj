@@ -57,9 +57,9 @@
       <Project>{8a32781d-504f-4706-a07a-16b44de472ea}</Project>
       <Name>DataManipulator</Name>
     </ProjectReference>
-    <ProjectReference Include="..\InsertSort\InsertSort.csproj">
+    <ProjectReference Include="..\InsertSort\InsertionSort.csproj">
       <Project>{c1c875c1-3627-4a06-8ff4-e43d8edd40cc}</Project>
-      <Name>InsertSort</Name>
+      <Name>InsertionSort</Name>
     </ProjectReference>
     <ProjectReference Include="..\MockDataGenerator\MockDataGenerator.csproj">
       <Project>{a62ac119-eb0d-4e39-bc1c-9d57b1783eb2}</Project>

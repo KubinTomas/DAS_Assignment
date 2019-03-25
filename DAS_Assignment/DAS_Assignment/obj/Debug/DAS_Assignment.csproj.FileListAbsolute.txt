@@ -126,6 +126,6 @@ C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DA
 C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\bin\Debug\System.Xml.XmlSerializer.dll
 C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\bin\Debug\System.Xml.XPath.dll
 C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\bin\Debug\System.Xml.XPath.XDocument.dll
-C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\bin\Debug\InsertSort.dll
-C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\bin\Debug\InsertSort.pdb
 C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\obj\Debug\DAS_Assignment.exe.config
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\bin\Debug\InsertionSort.dll
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\bin\Debug\InsertionSort.pdb

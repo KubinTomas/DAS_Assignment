@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataManipulator", "DataRead
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Settings", "Settings\Settings.csproj", "{E43D6A6B-0AB3-4BF6-B004-50C33F70DF16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertSort", "InsertSort\InsertSort.csproj", "{C1C875C1-3627-4A06-8FF4-E43D8EDD40CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSort", "InsertSort\InsertionSort.csproj", "{C1C875C1-3627-4A06-8FF4-E43D8EDD40CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

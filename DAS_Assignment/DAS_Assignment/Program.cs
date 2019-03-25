@@ -10,6 +10,7 @@ using DataManipulator;
 using BubbleSortPr;
 using InsertSortPr;
 using DataReader;
+using System.Diagnostics;
 
 namespace DAS_Assignment
 {
@@ -25,19 +26,96 @@ namespace DAS_Assignment
             var reader = new Reader();
             var writer = new Writer();
 
-            var sort = new InsertionSort();
+            var insertionSort = new InsertionSort();
+            var bubbleSort = new BubbleSort();
 
-            Console.WriteLine("Data se zpracovavaji");
+            var endProgram = false;
 
-            var data = reader.Read();
+            while (!endProgram)
+            {
+                Console.WriteLine("Press  a  generate mock data.");
+                Console.WriteLine("Press  b  to bubble sort");
+                Console.WriteLine("Press  c  to insertion sort");
+                Console.WriteLine("Press  d  to end program");
 
-            data = sort.Sort(data);
+                var pressedKey = Console.ReadLine();
 
-            Console.WriteLine("Data se sortuji");
+                if (pressedKey == "a")
+                {
+                    GenerateMockData();
 
-            writer.WriteDataInFile(data, "output.txt");
+                    Console.WriteLine("Operation finished");
 
-            Console.WriteLine("Operace dokoncena");
+                    continue;
+                }
+                if (pressedKey == "b")
+                {
+                    var data = reader.Read();
+
+                    Stopwatch stopWatch = new Stopwatch();
+                    stopWatch.Start();
+
+                    data = bubbleSort.Sort(data);
+                    stopWatch.Stop();
+                    Console.WriteLine("Time elapsed: " + stopWatch.Elapsed);
+
+                    Console.WriteLine("Sorting done, swap number: " + bubbleSort.SwapCounter);
+
+                    Console.WriteLine("Writting data");
+
+                    writer.WriteDataInFile(data, "bubbleOutput.txt");
+
+                    Console.WriteLine("Operation finished");
+
+
+                    continue;
+                }
+                if (pressedKey == "c")
+                {
+                    var data = reader.Read();
+
+
+                    Stopwatch stopWatch = new Stopwatch();
+                    stopWatch.Start();
+
+                    data = insertionSort.Sort(data);
+
+                    stopWatch.Stop();
+                    Console.WriteLine("Time elapsed: " + stopWatch.Elapsed);
+
+                    Console.WriteLine("Sorting done, swap number: " + insertionSort.SwapCounter);
+
+                    Console.WriteLine("Writting data");
+
+                    writer.WriteDataInFile(data, "insertionOutput.txt");
+
+                    Console.WriteLine("Operation finished");
+
+
+                    continue;
+                }
+                if (pressedKey == "d")
+                {
+                    endProgram = true;
+
+                    continue;
+                }
+
+
+                Console.WriteLine();
+                Console.WriteLine();
+            }
+
+
+            //var data = reader.Read();
+
+            //data = insertionSort.Sort(data);
+
+            //Console.WriteLine("Data se sortuji");
+
+            //writer.WriteDataInFile(data, "output.txt");
+
+            //Console.WriteLine("Operace dokoncena");
 
         }
         static void GenerateMockData()

@@ -2,10 +2,20 @@
 
 namespace InsertSortPr
 {
-    public class InsertSort
+    public class InsertionSort
     {
+
+        public int SwapCounter { get; set; }
+
+        public InsertionSort()
+        {
+            SwapCounter = 0;
+        }
+
         public int[] Sort(int[] numbers)
         {
+            SwapCounter = 0;
+
             int item, j;
 
             for (int i = 1; i <= (numbers.Length - 1); i++)
@@ -17,6 +27,7 @@ namespace InsertSortPr
                     numbers[j + 1] = numbers[j];
                     j--;
                 }
+                SwapCounter++;
                 numbers[j + 1] = item;
             }
 

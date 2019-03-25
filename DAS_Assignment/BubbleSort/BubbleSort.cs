@@ -8,23 +8,35 @@ namespace BubbleSortPr
 {
     public class BubbleSort
     {
+
+        public int SwapCounter { get; set; }
+
+        public BubbleSort()
+        {
+            SwapCounter = 0;
+        }
+
         public int[] Sort(int[] numbers)
         {
-            int j = numbers.Length - 2, temp;
-            // kontrola prohozeni
+            SwapCounter = 0;
+
+            int j = numbers.Length - 2;
+            int temp;
+          
             bool isSwapped = true;
             while (isSwapped)
             {
                 isSwapped = false;
                 for (int i = 0; i <= j; i++)
                 {
-                    // swap
+                    
                     if (numbers[i] > numbers[i + 1])
                     {
                         temp = numbers[i];
                         numbers[i] = numbers[i + 1];
                         numbers[i + 1] = temp;
                         isSwapped = true;
+                        SwapCounter++;
                     }
                 }
                 j--;
