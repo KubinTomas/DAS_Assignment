@@ -17,7 +17,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataManipulator", "DataRead
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Settings", "Settings\Settings.csproj", "{E43D6A6B-0AB3-4BF6-B004-50C33F70DF16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSort", "InsertSort\InsertionSort.csproj", "{C1C875C1-3627-4A06-8FF4-E43D8EDD40CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertionSort", "InsertSort\InsertionSort.csproj", "{C1C875C1-3627-4A06-8FF4-E43D8EDD40CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort", "QuickSort\QuickSort.csproj", "{F2F95CA5-D90F-4B84-AFD5-E70E84A3F83E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{C1C875C1-3627-4A06-8FF4-E43D8EDD40CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1C875C1-3627-4A06-8FF4-E43D8EDD40CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1C875C1-3627-4A06-8FF4-E43D8EDD40CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2F95CA5-D90F-4B84-AFD5-E70E84A3F83E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F95CA5-D90F-4B84-AFD5-E70E84A3F83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F95CA5-D90F-4B84-AFD5-E70E84A3F83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F95CA5-D90F-4B84-AFD5-E70E84A3F83E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

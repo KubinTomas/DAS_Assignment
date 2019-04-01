@@ -69,6 +69,10 @@
       <Project>{84fbac10-b207-4a82-b7b3-ac3fac54cc04}</Project>
       <Name>Queue</Name>
     </ProjectReference>
+    <ProjectReference Include="..\QuickSort\QuickSort.csproj">
+      <Project>{f2f95ca5-d90f-4b84-afd5-e70e84a3f83e}</Project>
+      <Name>QuickSort</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Settings\Settings.csproj">
       <Project>{e43d6a6b-0ab3-4bf6-b004-50c33f70df16}</Project>
       <Name>Settings</Name>

@@ -1,0 +1,9 @@
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\InsertSort\bin\Release\netstandard2.0\InsertionSort.deps.json
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\InsertSort\bin\Release\netstandard2.0\InsertionSort.dll
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\InsertSort\bin\Release\netstandard2.0\InsertionSort.pdb
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\InsertSort\obj\Release\netstandard2.0\InsertionSort.csprojAssemblyReference.cache
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\InsertSort\obj\Release\netstandard2.0\InsertionSort.csproj.CoreCompileInputs.cache
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\InsertSort\obj\Release\netstandard2.0\InsertionSort.AssemblyInfoInputs.cache
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\InsertSort\obj\Release\netstandard2.0\InsertionSort.AssemblyInfo.cs
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\InsertSort\obj\Release\netstandard2.0\InsertionSort.dll
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\InsertSort\obj\Release\netstandard2.0\InsertionSort.pdb

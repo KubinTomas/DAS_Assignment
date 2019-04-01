@@ -9,6 +9,7 @@ using MockDataGenerator;
 using DataManipulator;
 using BubbleSortPr;
 using InsertSortPr;
+using QuickSort;
 using DataReader;
 using System.Diagnostics;
 
@@ -20,6 +21,72 @@ namespace DAS_Assignment
     class Program
     {
         static void Main(string[] args)
+        {
+            GenerateMockData();
+
+            var reader = new Reader();
+            var writer = new Writer();
+
+            var quickSort = new DualPivotQuickSort();
+
+            Console.WriteLine("Zadejte kolik cisel se ma generovat");
+            var range = Int32.Parse(Console.ReadLine());
+
+            Console.WriteLine("Rozsah od");
+            var from = Int32.Parse(Console.ReadLine());
+
+            Console.WriteLine("Rozsah do");
+            var to = Int32.Parse(Console.ReadLine());
+
+            var mockGenerator = new MockNumberGenerator();
+
+            var mockSpecification = new MockDataSpecification()
+            {
+                ValueFrom = from,
+                ValueTo = to,
+                Count = range
+            };
+
+            mockGenerator.WriteRandomNumbersInFile(mockSpecification);
+
+
+            var data = reader.Read();
+
+            Console.WriteLine("Data se sortuji");
+
+            quickSort.Sort(data);
+
+            Console.WriteLine("Data se zapisuji");
+
+            writer.WriteDataInFile(data, "quicksortOutput.txt");
+
+            Console.WriteLine("Operace dokoncena");
+
+            //var data = reader.Read();
+
+            //data = insertionSort.Sort(data);
+
+            //Console.WriteLine("Data se sortuji");
+
+            //writer.WriteDataInFile(data, "output.txt");
+
+            //Console.WriteLine("Operace dokoncena");
+
+        }
+        static void GenerateMockData()
+        {
+            var mockGenerator = new MockNumberGenerator();
+
+            var mockSpecification = new MockDataSpecification()
+            {
+                ValueFrom = 0,
+                ValueTo = 10,
+                Count = 50000
+            };
+
+            mockGenerator.WriteRandomNumbersInFile(mockSpecification);
+        }
+        static void BubbleVsInsertionSort()
         {
             GenerateMockData();
 
@@ -105,31 +172,6 @@ namespace DAS_Assignment
                 Console.WriteLine();
                 Console.WriteLine();
             }
-
-
-            //var data = reader.Read();
-
-            //data = insertionSort.Sort(data);
-
-            //Console.WriteLine("Data se sortuji");
-
-            //writer.WriteDataInFile(data, "output.txt");
-
-            //Console.WriteLine("Operace dokoncena");
-
-        }
-        static void GenerateMockData()
-        {
-            var mockGenerator = new MockNumberGenerator();
-
-            var mockSpecification = new MockDataSpecification()
-            {
-                ValueFrom = 0,
-                ValueTo = 10,
-                Count = 50000
-            };
-
-            mockGenerator.WriteRandomNumbersInFile(mockSpecification);
         }
         static void Queue()
         {
