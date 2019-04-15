@@ -1,0 +1,6 @@
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\BinarySearch\bin\Debug\BinarySearch.dll
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\BinarySearch\bin\Debug\BinarySearch.pdb
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\BinarySearch\obj\Debug\BinarySearch.csproj.CoreCompileInputs.cache
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\BinarySearch\obj\Debug\BinarySearch.dll
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\BinarySearch\obj\Debug\BinarySearch.pdb
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\BinarySearch\obj\Debug\BinarySearch.csprojAssemblyReference.cache

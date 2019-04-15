@@ -49,6 +49,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BinarySearch\BinarySearch.csproj">
+      <Project>{ca711129-5ec9-4754-936b-043cbb060309}</Project>
+      <Name>BinarySearch</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BubbleSort\BubbleSort.csproj">
       <Project>{845dbe0a-9ecc-4a40-b17c-f8ff23e13547}</Project>
       <Name>BubbleSort</Name>

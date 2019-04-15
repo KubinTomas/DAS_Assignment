@@ -131,3 +131,5 @@ C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DA
 C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\bin\Debug\InsertionSort.pdb
 C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\bin\Debug\QuickSort.dll
 C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\bin\Debug\QuickSort.pdb
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\bin\Debug\BinarySearch.dll
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\DAS_Assignment\bin\Debug\BinarySearch.pdb

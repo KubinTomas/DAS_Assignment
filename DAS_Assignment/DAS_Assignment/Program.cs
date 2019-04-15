@@ -49,12 +49,11 @@ namespace DAS_Assignment
 
             mockGenerator.WriteRandomNumbersInFile(mockSpecification);
 
-
             var data = reader.Read();
 
             Console.WriteLine("Data se sortuji");
 
-            quickSort.Sort(data);
+            var sortedData = quickSort.Sort(data);
 
             Console.WriteLine("Data se zapisuji");
 
@@ -62,15 +61,44 @@ namespace DAS_Assignment
 
             Console.WriteLine("Operace dokoncena");
 
-            //var data = reader.Read();
+            var binarySerach = new BinarySearchDll.BinarySearch();
 
-            //data = insertionSort.Sort(data);
+            Console.WriteLine("Zadejte hledane cislo");
+            var searchedNumber = Int32.Parse(Console.ReadLine());
 
-            //Console.WriteLine("Data se sortuji");
+            Console.WriteLine("Hledam pocetnost cisla: " + searchedNumber);
 
-            //writer.WriteDataInFile(data, "output.txt");
+            var count = binarySerach.GetNumberCountInNumbers(searchedNumber, sortedData);
 
-            //Console.WriteLine("Operace dokoncena");
+            Console.WriteLine("Operace dokoncena");
+            Console.WriteLine("Cislo: " + searchedNumber + " se vyskytuje: " + count);
+
+            var runUntil = true;
+
+            while (runUntil)
+            {
+
+                Console.WriteLine("Press  a  to continue.");
+                Console.WriteLine("Press  b  end");
+
+                var pressedKey = Console.ReadLine();
+
+                if (pressedKey == "a")
+                {
+                    Console.WriteLine("Zadejte hledane cislo");
+                    searchedNumber = Int32.Parse(Console.ReadLine());
+                    Console.WriteLine("Hledam pocetnost cisla: " + searchedNumber);
+                    count = binarySerach.GetNumberCountInNumbers(searchedNumber, sortedData);
+                    Console.WriteLine("Operace dokoncena");
+                    Console.WriteLine("Cislo: " + searchedNumber + " se vyskytuje: " + count);
+                }
+                else if (pressedKey == "b")
+                {
+                    runUntil = false;
+                }
+            }
+
+            Console.WriteLine("Konec, diiiky");
 
         }
         static void GenerateMockData()
@@ -81,7 +109,7 @@ namespace DAS_Assignment
             {
                 ValueFrom = 0,
                 ValueTo = 10,
-                Count = 50000
+                Count = 500
             };
 
             mockGenerator.WriteRandomNumbersInFile(mockSpecification);
