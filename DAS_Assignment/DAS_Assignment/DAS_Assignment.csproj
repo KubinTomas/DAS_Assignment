@@ -53,6 +53,10 @@
       <Project>{ca711129-5ec9-4754-936b-043cbb060309}</Project>
       <Name>BinarySearch</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BST\BST.csproj">
+      <Project>{2de5c3e0-2ca8-4832-8175-aebdfe2d5931}</Project>
+      <Name>BST</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BubbleSort\BubbleSort.csproj">
       <Project>{845dbe0a-9ecc-4a40-b17c-f8ff23e13547}</Project>
       <Name>BubbleSort</Name>

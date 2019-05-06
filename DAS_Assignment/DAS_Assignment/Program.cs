@@ -12,6 +12,7 @@ using InsertSortPr;
 using QuickSort;
 using DataReader;
 using System.Diagnostics;
+using BST;
 
 namespace DAS_Assignment
 {
@@ -22,12 +23,28 @@ namespace DAS_Assignment
     {
         static void Main(string[] args)
         {
+            //var bsTree = new BSTree(new[] { 12, 8, 3, 15, 12, 7, 2, 19, 11, 3 });
+
+            //var a = bsTree.NumberOfOccurence(12);
+            //var b = bsTree.NumberOfOccurence(0);
+            //var c = bsTree.NumberOfOccurence(8);
+            //var d = bsTree.NumberOfOccurence(3);
+
+            ////bsTree.Delete(bsTree.Root, 12);
+            ////bsTree.Delete(bsTree.Root, 12);
+            ////bsTree.Delete(bsTree.Root, 2);
+            ////bsTree.Delete(bsTree.Root, 0);
+            //bsTree.Delete(bsTree.Root, 19);
+
+            Console.WriteLine();
+
+
             GenerateMockData();
 
             var reader = new Reader();
             var writer = new Writer();
 
-            var quickSort = new DualPivotQuickSort();
+            //var quickSort = new DualPivotQuickSort();
 
             Console.WriteLine("Zadejte kolik cisel se ma generovat");
             var range = Int32.Parse(Console.ReadLine());
@@ -51,54 +68,107 @@ namespace DAS_Assignment
 
             var data = reader.Read();
 
-            Console.WriteLine("Data se sortuji");
+            Console.WriteLine("Tvorim strom");
 
-            var sortedData = quickSort.Sort(data);
+            var bsTree = new BSTree(data);
 
-            Console.WriteLine("Data se zapisuji");
-
-            writer.WriteDataInFile(data, "quicksortOutput.txt");
-
-            Console.WriteLine("Operace dokoncena");
-
-            var binarySerach = new BinarySearchDll.BinarySearch();
-
-            Console.WriteLine("Zadejte hledane cislo");
-            var searchedNumber = Int32.Parse(Console.ReadLine());
-
-            Console.WriteLine("Hledam pocetnost cisla: " + searchedNumber);
-
-            var count = binarySerach.GetNumberCountInNumbers(searchedNumber, sortedData);
-
-            Console.WriteLine("Operace dokoncena");
-            Console.WriteLine("Cislo: " + searchedNumber + " se vyskytuje: " + count);
+            Console.WriteLine("Strom vytvoren");
 
             var runUntil = true;
 
             while (runUntil)
             {
 
-                Console.WriteLine("Press  a  to continue.");
-                Console.WriteLine("Press  b  end");
+                Console.WriteLine("Press  a to add value.");
+                Console.WriteLine("Press  b  search value");
+                Console.WriteLine("Press  c  remove value");
+                Console.WriteLine("Press  d  to end");
 
                 var pressedKey = Console.ReadLine();
 
                 if (pressedKey == "a")
                 {
-                    Console.WriteLine("Zadejte hledane cislo");
-                    searchedNumber = Int32.Parse(Console.ReadLine());
-                    Console.WriteLine("Hledam pocetnost cisla: " + searchedNumber);
-                    count = binarySerach.GetNumberCountInNumbers(searchedNumber, sortedData);
-                    Console.WriteLine("Operace dokoncena");
-                    Console.WriteLine("Cislo: " + searchedNumber + " se vyskytuje: " + count);
+                    Console.WriteLine("Zadejte cislo k pridani");
+                    var number = Int32.Parse(Console.ReadLine());
+
+                    bsTree.Add(number);
+                    Console.WriteLine("Cislo pridano: " + number);
                 }
                 else if (pressedKey == "b")
+                {
+                    Console.WriteLine("Zadejte cislo k vypoctu vyskytu");
+                    var number = Int32.Parse(Console.ReadLine());
+
+                    var value = bsTree.NumberOfOccurence(number);
+
+                    Console.WriteLine("Pocet vyskytu: " + value);
+                }
+                else if (pressedKey == "c")
+                {
+                    Console.WriteLine("Zadejte cislo k odstraneni ze stromu");
+                    var number = Int32.Parse(Console.ReadLine());
+
+                    bsTree.Delete(bsTree.Root, number);
+
+                    Console.WriteLine("Odstraneni dokonceno");
+                }
+
+                else if (pressedKey == "d")
                 {
                     runUntil = false;
                 }
             }
 
-            Console.WriteLine("Konec, diiiky");
+            //Console.WriteLine("Konec, diiiky");
+
+            //Console.WriteLine("Data se sortuji");
+
+            //var sortedData = quickSort.Sort(data);
+
+            //Console.WriteLine("Data se zapisuji");
+
+            //writer.WriteDataInFile(data, "quicksortOutput.txt");
+
+            //Console.WriteLine("Operace dokoncena");
+
+            //var binarySerach = new BinarySearchDll.BinarySearch();
+
+            //Console.WriteLine("Zadejte hledane cislo");
+            //var searchedNumber = Int32.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Hledam pocetnost cisla: " + searchedNumber);
+
+            //var count = binarySerach.GetNumberCountInNumbers(searchedNumber, sortedData);
+
+            //Console.WriteLine("Operace dokoncena");
+            //Console.WriteLine("Cislo: " + searchedNumber + " se vyskytuje: " + count);
+
+            //var runUntil = true;
+
+            //while (runUntil)
+            //{
+
+            //    Console.WriteLine("Press  a  to continue.");
+            //    Console.WriteLine("Press  b  end");
+
+            //    var pressedKey = Console.ReadLine();
+
+            //    if (pressedKey == "a")
+            //    {
+            //        Console.WriteLine("Zadejte hledane cislo");
+            //        searchedNumber = Int32.Parse(Console.ReadLine());
+            //        Console.WriteLine("Hledam pocetnost cisla: " + searchedNumber);
+            //        count = binarySerach.GetNumberCountInNumbers(searchedNumber, sortedData);
+            //        Console.WriteLine("Operace dokoncena");
+            //        Console.WriteLine("Cislo: " + searchedNumber + " se vyskytuje: " + count);
+            //    }
+            //    else if (pressedKey == "b")
+            //    {
+            //        runUntil = false;
+            //    }
+            //}
+
+            //Console.WriteLine("Konec, diiiky");
 
         }
         static void GenerateMockData()

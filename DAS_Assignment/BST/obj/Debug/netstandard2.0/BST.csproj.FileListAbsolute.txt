@@ -1,0 +1,9 @@
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\BST\bin\Debug\netstandard2.0\BST.deps.json
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\BST\bin\Debug\netstandard2.0\BST.dll
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\BST\bin\Debug\netstandard2.0\BST.pdb
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\BST\obj\Debug\netstandard2.0\BST.csprojAssemblyReference.cache
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\BST\obj\Debug\netstandard2.0\BST.csproj.CoreCompileInputs.cache
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\BST\obj\Debug\netstandard2.0\BST.AssemblyInfoInputs.cache
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\BST\obj\Debug\netstandard2.0\BST.AssemblyInfo.cs
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\BST\obj\Debug\netstandard2.0\BST.dll
+C:\Users\Kubin\OneDrive\Plocha\Work\Programming\DAS_Assignment\DAS_Assignment\BST\obj\Debug\netstandard2.0\BST.pdb
